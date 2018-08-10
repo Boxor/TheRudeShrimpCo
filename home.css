@@ -15,7 +15,7 @@ img{
 }
 
 nav{
-    position: absolute;
+    position: fixed;
     bottom: 3em;
     width: 100%;
     height: 10%;
