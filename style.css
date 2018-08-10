@@ -8,30 +8,37 @@ body{
     font-family: "stencil";
 }
 
+header{
+    height: 20%;
+    width: 100%;
+}
+
 img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline;
 }
 
 nav{
-    position: absolute;
-    bottom: 3em;
-    width: 100%;
+    display: inline;
+    width: 10%;
     height: 10%;
     padding-left: 15%;
     padding-right: 15%;
 }
 
 nav ul{
+    position: fixed;
+    display: inline;
+    width: 100%;
+    height: 100%;
+    top: 2%;
     list-style-type: none;
     text-align: center;
 }
 
 nav li{
     display: inline;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 #findme{
@@ -46,4 +53,21 @@ nav a{
     text-decoration: none;
     color: black;
     font-size: 22px;
+}
+
+main{
+    height: 38em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu{
+    display: block;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 1024px){
+    
 }
