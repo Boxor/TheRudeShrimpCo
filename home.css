@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    position: relative;
 }
 
 body{
@@ -9,18 +10,24 @@ body{
 }
 
 img{
+
+}
+
+#logo{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 nav{
-    position: fixed;
-    bottom: 3em;
+    position: relative;
+    top: 3em;
     width: 100%;
     height: 10%;
+/*
     padding-left: 15%;
     padding-right: 15%;
+*/
 }
 
 nav ul{
@@ -30,8 +37,20 @@ nav ul{
 
 nav li{
     display: inline;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+nav img{
+    display: inline;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 #findme{
@@ -42,16 +61,72 @@ nav li{
     margin-right: 0;
 }
 
-nav a{
-    text-decoration: none;
-    color: black;
-    font-size: 22px;
-}
-
-@media screen and (max-width: 1024px){
-    
-}
-
 @media screen and (max-width: 768px){
     
+    #logo{
+        width: 29em;
+        height: auto;
+    }
+    
+    nav li{
+        margin-left: .5em;
+        margin-right: .5em;
+    }
+    
+    .links{
+        width: auto;
+        height: 2em;
+    }
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
