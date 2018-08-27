@@ -10,6 +10,11 @@ body{
 
 header{
     height: 20%;
+    width: 100%;
+}
+
+div{
+    display: inline;
 }
 
 img{
@@ -22,14 +27,10 @@ nav{
     height: 10%;
     padding-left: 15%;
     padding-right: 15%;
-/*
-    margin-left: auto;
-    margin-right: auto;
-*/
 }
 
 nav ul{
-    position: fixed;
+    position: relative;
     display: inline;
     width: 100%;
     height: 100%;
@@ -42,6 +43,11 @@ nav li{
     display: inline;
     margin-left: 4%;
     margin-right: 4%;
+}
+
+.links{
+    height: 60px;
+    top: auto;
 }
 
 #findme{
@@ -59,7 +65,24 @@ nav a{
 }
 
 main{
-    height: 38em;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main a{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main img{
+    width: 100%;
+}
+
+.events{
+    display: block;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -67,6 +90,7 @@ main{
 #menu{
     display: block;
     height: 100%;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
 }
