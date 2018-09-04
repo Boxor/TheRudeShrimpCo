@@ -124,11 +124,19 @@ main img{
     margin-right: 1em;
 }
 
+p{
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-top: 3em;
+    font-size: 24px;
+}
+
 .social{
     display: block;
     height: 100%;
     width: auto;
-    margin-top: 8em;
+    margin-top: 5em;
     margin-left: auto;
     margin-right: auto;
 }
